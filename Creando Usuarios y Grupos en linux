@@ -1,0 +1,14 @@
+/*Primero  entramos a modo root con els iguiente comando*/
+sudo su
+/*Nos pide que coloquemos nuestra contraseña*/
+*********
+/*procedemos  a crear dos usuarios uno con el nombre de mi mama  "Estela" y otro con mi nombre Yasmina lo hacemos con el siguiente comando:*/
+useradd Estela
+useraad Yasmina
+/* acontinuacion le colocaremos contraseña a los dos nuevos usuarios que creamos*/
+passwd Estela
+/* escribimos la contraseña que deseemos colocar*/
+passwd Yasmina
+/* escribimos la contraseña, luego procedemos a crear el grupo llamado "casa", lo hacemos con el siguiente comando*/
+groupadd casa
+/* ya hemos creado nuestro grupo, ahora necesitamos comprobar que ya se
